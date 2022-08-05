@@ -3,9 +3,54 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
+    margin-top: 5rem;
 }
 
 .barContainer {
     width: 10px;
     background-color: red;
+}
+
+.item {
+    width: 100%;
+    min-height: 100vh;
+    z-index: 0;
+}
+
+.card {
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    filter: blur(3px);
+    border-radius: 2rem;
+    z-index: -999;
+    box-shadow: var(--main-shadow);
+}
+
+#bxsci {
+    margin-left: 50%;
+    margin-top: -5%;
+}
+
+.time {
+    font-size: 3rem;
+    color: var(--font-color-title);
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.description {
+    font-size: 0.8rem;
+    color: var(--font-color-description);
+}
+
+.summary {
+    font-size: 1rem;
+}
+
+.awards {
+    font-size: 1rem;
 }
