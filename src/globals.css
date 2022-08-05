@@ -21,7 +21,6 @@ body {
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: white;
     background: var(--bg-primary);
-    overflow-x: hidden;
 }
 
 a {
