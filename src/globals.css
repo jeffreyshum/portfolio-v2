@@ -6,7 +6,9 @@
     --font-size-footer: 0.7rem;
     --font-color-headline-small: white;
     --font-color-headline-main: white;
-    --font-color-title: gold;
+    --font-color-title-past: #30BBCF;
+    --font-color-focus: #30CF93;
+    --font-color-title-current: gold;
     --font-color-description: lightgrey;
     --font-color-headline-highlight: rgb(115, 192, 218);
     --font-color-resume-button: rgb(3, 250, 250);

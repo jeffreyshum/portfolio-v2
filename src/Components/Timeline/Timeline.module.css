@@ -35,13 +35,18 @@
 
 .time {
     font-size: 3rem;
-    color: var(--font-color-title);
+    color: var(--font-color-title-current);
     text-align: center;
+}
+
+.time[data-past] {
+    color: var(--font-color-title-past);
 }
 
 .title {
     font-size: 2rem;
 }
+
 
 .description {
     font-size: 0.8rem;
@@ -54,4 +59,9 @@
 
 .awards {
     font-size: 1rem;
+}
+
+.focusText {
+    font-weight: bold;
+    color: var(--font-color-focus);
 }
