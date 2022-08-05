@@ -1,0 +1,30 @@
+:root {
+    --bg-primary: #222222;
+    --bar-color: gold;
+    --font-size-headline-small: 2rem;
+    --font-size-headline-main: 3rem;
+    --font-color-headline-small: white;
+    --font-color-headline-main: white;
+    --font-color-headline-highlight: rgb(115, 192, 218);
+}
+
+html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+    background: var(--bg-primary);
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+div,
+section {
+    padding: 0;
+    margin: 0;
+}

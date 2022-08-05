@@ -1,0 +1,10 @@
+#timelineContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.barContainer {
+    width: 10px;
+    background-color: red;
+}
