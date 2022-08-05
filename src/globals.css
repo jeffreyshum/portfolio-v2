@@ -6,6 +6,10 @@
     --font-color-headline-small: white;
     --font-color-headline-main: white;
     --font-color-headline-highlight: rgb(115, 192, 218);
+    --font-color-resume-button: rgb(3, 250, 250);
+    --border-primary: lightgrey;
+    --border-resume-button: rgb(13, 195, 228);
+    --main-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 html,
@@ -14,6 +18,11 @@ body {
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: white;
     background: var(--bg-primary);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 input,
