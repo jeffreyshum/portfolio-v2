@@ -34,7 +34,7 @@
 
 .resume {
     position: absolute;
-    top: 0;
+    top: 25%;
     right: 2.5%;
     transition: 0.2s;
     display: none;
