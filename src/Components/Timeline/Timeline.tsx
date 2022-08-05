@@ -2,6 +2,7 @@ import { FC } from "react"
 import Fade from "react-reveal/Fade"
 import styles from "./Timeline.module.css"
 import bxsciImage from "../../images/bronx-science.png"
+import sbuImage from "../../images/stony-brook.png"
 
 const Timeline: FC = () => {
 	return (
@@ -65,6 +66,14 @@ const Timeline: FC = () => {
 					<br />
 					Grade Point Average: 3.97
 				</p>
+				<Fade bottom>
+					<img
+						src={sbuImage}
+						alt="Stony Brook"
+						className={styles.card}
+						id={styles.sbu}
+					/>
+				</Fade>
 			</div>
 			<h2 className={styles.sectionHeading}>Experience</h2>
 			{/* Teaching Assistant */}
@@ -82,13 +91,35 @@ const Timeline: FC = () => {
 					<p className={styles.awards}>
 						Assist teaching material, grading assignments, and
 						tutoring undergraduate students in{" "}
-						<span className={styles.focusText}>
-							AMS 103 -{" "}
-							<em>Applied Mathematics in Modern Technology</em>
-						</span>{" "}
-						under the guidance and mentorship of Professor Matthew
-						G. Reuter of Stony Brook University's Department of
-						Applied Mathematics & Statistics.
+						<a
+							href="https://www.stonybrook.edu/commcms/ams/undergraduate/_courses/ams103.php"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<span className={styles.focusText}>
+								AMS 103 -{" "}
+								<em>
+									Applied Mathematics in Modern Technology
+								</em>
+							</span>{" "}
+						</a>
+						under the guidance and mentorship of{" "}
+						<a
+							href="https://www.stonybrook.edu/commcms/ams/people/_faculty_profiles/reuter.php"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Professor Matthew G. Reuter
+						</a>{" "}
+						of{" "}
+						<a
+							href="https://www.stonybrook.edu/commcms/ams/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Stony Brook University's Department of Applied
+							Mathematics & Statistics.
+						</a>
 						<br />
 						<br />
 						<b>
