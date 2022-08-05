@@ -1,0 +1,23 @@
+#footer {
+    border-top: 1px solid var(--border-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: var(--font-size-footer);
+}
+
+.react {
+    height: var(--font-size-footer);
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkContainer > * {
+    margin: 0 0.5rem;
+}

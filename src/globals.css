@@ -3,6 +3,7 @@
     --bar-color: gold;
     --font-size-headline-small: 2rem;
     --font-size-headline-main: 3rem;
+    --font-size-footer: 0.7rem;
     --font-color-headline-small: white;
     --font-color-headline-main: white;
     --font-color-title: gold;
@@ -20,6 +21,7 @@ body {
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: white;
     background: var(--bg-primary);
+    overflow-x: hidden;
 }
 
 a {
