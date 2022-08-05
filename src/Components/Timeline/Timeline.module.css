@@ -41,6 +41,7 @@
 
 .time[data-past] {
     color: var(--font-color-title-past);
+    font-style: italic;
 }
 
 .title {
