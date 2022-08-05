@@ -7,6 +7,7 @@ const Timeline: FC = () => {
 	return (
 		<section id={styles.timelineContainer}>
 			<h1>Curriculum Vitae</h1>
+			<h2 className={styles.sectionHeading}>Education</h2>
 			<div className={styles.barContainer}>
 				<div className={styles.bar}></div>
 			</div>
@@ -30,6 +31,8 @@ const Timeline: FC = () => {
 					<p className={styles.awards}>
 						Graduated with an Advanced Regents Diploma
 						<br />
+						AP Scholar
+						<br />
 						Grade Point Average: 94.49%
 					</p>
 				</div>
@@ -49,13 +52,21 @@ const Timeline: FC = () => {
 				<h3 className={styles.description}>
 					Higher Education - Undergraduate
 				</h3>
-				<p className={styles.summary}></p>
+				<p className={styles.summary}>
+					A New York State Flagship University with distinctions in
+					the humanities and the sciences. Stony Brook is renowned for
+					research in fields including physics, mathematics, and
+					medicine.
+				</p>
 				<p className={styles.awards}>
 					Prospective Bachelor's Degree
+					<br />
+					College of Arts and Sciences Dean's List
 					<br />
 					Grade Point Average: 3.97
 				</p>
 			</div>
+			<h2 className={styles.sectionHeading}>Experience</h2>
 			{/* Teaching Assistant */}
 			<div className={styles.item}>
 				<h1 className={styles.time}>2022 - Current</h1>

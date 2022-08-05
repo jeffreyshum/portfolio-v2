@@ -6,14 +6,13 @@
     margin-top: 5rem;
 }
 
-.barContainer {
-    width: 10px;
-    background-color: red;
+.sectionHeading {
+    font-size: 4rem;
 }
 
 .item {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     z-index: 0;
     overflow: hidden;
 }
@@ -34,7 +33,10 @@
 }
 
 .time {
-    font-size: 3rem;
+    border-top: 1px solid var(--border-primary);
+    width: 80%;
+    transform: translateX(10%);
+    font-size: 2.5rem;
     color: var(--font-color-title-current);
     text-align: center;
 }
