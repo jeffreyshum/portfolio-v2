@@ -6,6 +6,8 @@ import tsIcon from "../../images/icons/typescript.png"
 import nextIcon from "../../images/icons/nextjs.png"
 import pythonIcon from "../../images/icons/python.png"
 import javaIcon from "../../images/icons/java.png"
+import htmlIcon from "../../images/icons/html.png"
+import cssIcon from "../../images/icons/css.png"
 
 const Skills: FC = () => {
 	return (
@@ -13,6 +15,8 @@ const Skills: FC = () => {
 			<h1>Skills</h1>
 			<h2>Programming</h2>
 			<div className={styles.iconContainer}>
+				<SkillIcon title="HTML5" image={htmlIcon} />
+				<SkillIcon title="CSS3" image={cssIcon} />
 				<SkillIcon title="JavaScript" image={jsIcon} />
 				<SkillIcon title="TypeScript" image={tsIcon} />
 				<SkillIcon title="React" image={reactIcon} />
