@@ -1,0 +1,44 @@
+#skillContainer {
+    text-align: center;
+    border-top: 1px solid var(--border-primary);
+}
+
+.iconContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    width: 6rem;
+    margin: 1rem;
+}
+
+.cardTitle {
+    position: absolute;
+    top: 0.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 100%;
+    padding: 0.2rem;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 5px;
+}
+
+.cardImage {
+    height: 6rem;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.card:hover > .cardTitle {
+    opacity: 1;
+}
+
+.card:hover > .cardImage {
+    filter: blur(3px);
+}
