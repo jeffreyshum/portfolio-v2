@@ -3,6 +3,7 @@ import styles from "./Socials.module.css"
 import Github from "../../images/github.png"
 import Instagram from "../../images/instagram.png"
 import Linkedin from "../../images/linkedin.png"
+import Blog from "../../images/blog.png"
 
 const Socials: FC = () => {
 	const [scrollChange, setScrollChange] = useState(false)
@@ -60,6 +61,18 @@ const Socials: FC = () => {
 						className={styles.icon}
 						alt="linkedin"
 						title="LinkedIn"
+					></img>
+				</a>
+				<a
+					href="https://blog.jeffreyshum.com/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<img
+						src={Blog}
+						className={styles.icon}
+						alt="blog"
+						title="Blog"
 					></img>
 				</a>
 			</div>
