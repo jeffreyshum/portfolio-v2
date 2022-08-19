@@ -21,19 +21,10 @@
     height: 20rem;
     width: 20rem;
     object-fit: cover;
-    filter: blur(3px);
     border-radius: 2rem;
-    z-index: -999;
     box-shadow: var(--main-shadow);
-}
-
-#bxsci {
-    margin-left: 50%;
-    margin-top: -5%;
-}
-
-#sbu {
-    margin-top: 3%;
+    margin: 2rem auto;
+    display: block;
 }
 
 .time {
